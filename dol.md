@@ -7,7 +7,7 @@ tags: 14353051 邓玲
 ## 1 _example1 代码分析_
 
 1. 运行example1之后的dot图，其中包含生产者、平方模块、消费者【3个框】、通道C1与C2【两条线】
-![http://github.com/JadeDL/ ES2016_14353051/lab3_image/1.git ]()
+![http://github.com/JadeDL/ES2016_14353051/lab3_image/1.git]()
  
 2. 定义进程：每个模块都要写上xxx_fire（可能被执行无数次），至于init是可选择写或者不写的，xxx_init（只会被执行一次）。
 generator_init 是初始化函数。这里代码的意思是将当前位置置为0，设置生产者长度。这里的local指针指向的是.h文件的_local_states结构。
