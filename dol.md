@@ -1,11 +1,7 @@
 ---
-title: DOL实例分析报告
+#DOL实例分析报告
 tags: 14353051 邓玲
-grammar_footnote: true
-grammar_cjkEmphasis: true
-grammar_cjkRuby: true
-grammar_plantuml: true
----
+
 
 
 ## 1 _example1 代码分析_
