@@ -26,7 +26,7 @@ square_fire信号处理函数，读入输入端信号i，将其平方后写出�
 
 
 
-## 2 example2 代码分析 
+## 2 _example2 代码分析_ 
 
 1. 各进程功能定义与example1相同，不同之处在于example2架构中中包含3个square进程，故结果为 i8
 example2 的dot图如下所示
@@ -37,7 +37,7 @@ example2 的dot图如下所示
   
 
 
-## 3 实验结果及截图
+## 3 _实验结果及截图_
 
 1.	修改example2，让3个square模块变成2个, tips:修改xml的iterator
 修改后的代码如图所示：
