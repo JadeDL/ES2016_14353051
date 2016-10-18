@@ -7,18 +7,18 @@ tags: 14353051 邓玲
 ## 1 _example1 代码分析_
 
 1. 运行example1之后的dot图，其中包含生产者、平方模块、消费者【3个框】、通道C1与C2【两条线】
-![http://github.com/JadeDL/ES2016_14353051/lab3_image/1.git]()
+![http://github.com/JadeDL/ES2016_14353051/lab3_image/1.git]
  
 2. 定义进程：每个模块都要写上xxx_fire（可能被执行无数次），至于init是可选择写或者不写的，xxx_init（只会被执行一次）。
 generator_init 是初始化函数。这里代码的意思是将当前位置置为0，设置生产者长度。这里的local指针指向的是.h文件的_local_states结构。
 3. generator_fire 是信号产生函数。
 这里的代码是：如果当前位置小于生产长度，则将x（这里是当前下标）写入到输出端，否则销毁进程。所以说就是，让这个程序被发射、开火、执行length次之后停下来。
-![https://github.com/JadeDL/ES2016_14353051/lab3_image/2.png]()
+![https://github.com/JadeDL/ES2016_14353051/lab3_image/2.png]
  
 4. 定义消费者进程
 consumer_init初始化函数，含义同generator_init。
 consumer_fire信号消费函数，若当前位置小于设定长度，则读出输入端信号，并且打印；否则销毁进程（停下来）。
-![https://github.com/JadeDL/ES2016_14353051/lab3_image/3.png]()
+![https://github.com/JadeDL/ES2016_14353051/lab3_image/3.png]
 
  
 5. 定义平方进程
