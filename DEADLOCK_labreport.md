@@ -1,6 +1,6 @@
 # Deadlock实验报告：
 ## 流程：
-![\[enter][1] 
+![enter][1] 
 ![enter description here][2]
 1.   把上面的代码抄到 Deadlock.java里面,保存
 2.  javac Deadlock.java	
