@@ -2,10 +2,13 @@
 ## 流程：
 ![enter][1] 
 ![enter description here][2]
+
 1.   把上面的代码抄到 Deadlock.java里面,保存
 2.  javac Deadlock.java	
 3.  lWindows系统（把下面这段到记事本里，然后保存为.bat，然将批处理文件放在java程序（Deadlock.class）目录下，双击运行，观察结果）
- ![enter description here][3]
+
+![enter description here][3]
+ 
 4. 上一步的3就是让这个程序跑一百遍，通常情况下，跑个几十遍就会停的像这样：跑到第49次就停了，多少次停是随机的，调节程序中count值，使其发生死锁。
 5. 截图如下:
 ![enter description here][4]
