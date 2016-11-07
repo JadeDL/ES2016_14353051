@@ -10,8 +10,8 @@ tags: 14353051 邓玲
 ![enter description here][1]
 
 2. Setup your sources.list
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-![enter description here][2]
+ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+ ![enter description here][2]
 
 3. Set up your keys
   sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
@@ -19,36 +19,37 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
   ![enter description here][3]
 
 4.  Desktop-Full Install: (Recommended) : 
-sudo apt-get install ros-jade-desktop-full
-![enter description here][4]
+ sudo apt-get install ros-jade-desktop-full
+ ![enter description here][4]
 
 5. Desktop Install:
-sudo apt-get install ros-jade-desktop
-![enter description here][5]
+ sudo apt-get install ros-jade-desktop
+ ![enter description here][5]
 
 6. ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
-sudo apt-get install ros-jade-ros-base
-![enter description here][6]
+ sudo apt-get install ros-jade-ros-base
+
+ ![enter description here][6]
 
 7. Individual Package:
-sudo apt-get install ros-jade-slam-gmapping
-![enter description here][7]
+ sudo apt-get install ros-jade-slam-gmapping
+ ![enter description here][7]
 
 8. To find available packages, use: 
-apt-cache search ros-jade
-![enter description here][8]
+ apt-cache search ros-jade
+ ![enter description here][8]
 
 9. Initialize rosdep
-Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. 
-sudo rosdep init
-rosdep update
-![enter description here][9]
+ Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. 
+ sudo rosdep init
+ rosdep update
+ ![enter description here][9]
 
 10. Environment setup
-source /opt/ros/jade/setup.bash
-Getting rosinstall
-sudo apt-get install python-rosinstall
-![enter description here][10]
+ source /opt/ros/jade/setup.bash
+ Getting rosinstall
+ sudo apt-get install python-rosinstall
+ ![enter description here][10]
  $ apt-get source ros-jade-laser-pipeline
  ![enter description here][11]
  
