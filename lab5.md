@@ -15,26 +15,26 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 
 3. Set up your keys
   sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
-sudo apt-get install libgl1-mesa-dev-lts-utopic
-![enter description here][3]
+  sudo apt-get install libgl1-mesa-dev-lts-utopic
+  ![enter description here][3]
 
- 4.  Desktop-Full Install: (Recommended) : 
+4.  Desktop-Full Install: (Recommended) : 
 sudo apt-get install ros-jade-desktop-full
 ![enter description here][4]
 
- 5. Desktop Install:
+5. Desktop Install:
 sudo apt-get install ros-jade-desktop
 ![enter description here][5]
 
- 6. ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
+6. ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
 sudo apt-get install ros-jade-ros-base
 ![enter description here][6]
 
- 7. Individual Package:
+7. Individual Package:
 sudo apt-get install ros-jade-slam-gmapping
 ![enter description here][7]
 
- 8. To find available packages, use: 
+8. To find available packages, use: 
 apt-cache search ros-jade
 ![enter description here][8]
 
@@ -44,7 +44,7 @@ sudo rosdep init
 rosdep update
 ![enter description here][9]
 
- 10. Environment setup
+10. Environment setup
 source /opt/ros/jade/setup.bash
 Getting rosinstall
 sudo apt-get install python-rosinstall
