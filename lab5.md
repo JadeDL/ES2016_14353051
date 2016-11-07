@@ -43,6 +43,7 @@ tags: 14353051 邓玲
  Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. 
  sudo rosdep init
  rosdep update
+ 
  ![enter description here][9]
 
 10. Environment setup
@@ -50,7 +51,9 @@ tags: 14353051 邓玲
  Getting rosinstall
  sudo apt-get install python-rosinstall
  ![enter description here][10]
+ 
  $ apt-get source ros-jade-laser-pipeline
+ 
  ![enter description here][11]
  
 11. 配置心得：
