@@ -9,30 +9,26 @@ grammar_plantuml: true
 
 ## ROS配置流程
 
+# 配置流程
 1.	首先要查看自己的ubuntu的版本：
 按住ctrl+alt+t打开一个终端，在里面输入：  
-
 ![enter description here][1]
- 
+
 2. Setup your sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
 ![enter description here][2]
 
 3. Set up your keys
   sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
 sudo apt-get install libgl1-mesa-dev-lts-utopic
-
 ![enter description here][3]
 
  4.  Desktop-Full Install: (Recommended) : 
 sudo apt-get install ros-jade-desktop-full
-
 ![enter description here][4]
 
  5. Desktop Install:
 sudo apt-get install ros-jade-desktop
-
 ![enter description here][5]
 
  6. ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
