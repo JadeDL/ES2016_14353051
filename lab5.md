@@ -1,11 +1,6 @@
----
-title: Lab5 ROS配置
+# Lab5 ROS配置
 tags: 14353051 邓玲
-grammar_footnote: true
-grammar_cjkEmphasis: true
-grammar_cjkRuby: true
-grammar_plantuml: true
----
+
 
 ## ROS配置流程
 
