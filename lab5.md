@@ -9,7 +9,7 @@ grammar_plantuml: true
 
 ## ROS配置流程
 
-# 配置流程
+### 配置流程
 1.	首先要查看自己的ubuntu的版本：
 按住ctrl+alt+t打开一个终端，在里面输入：  
 ![enter description here][1]
@@ -33,35 +33,28 @@ sudo apt-get install ros-jade-desktop
 
  6. ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
 sudo apt-get install ros-jade-ros-base
-
 ![enter description here][6]
 
  7. Individual Package:
 sudo apt-get install ros-jade-slam-gmapping
-
 ![enter description here][7]
 
  8. To find available packages, use: 
 apt-cache search ros-jade
-
 ![enter description here][8]
 
 9. Initialize rosdep
 Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. 
 sudo rosdep init
 rosdep update
-
 ![enter description here][9]
 
  10. Environment setup
 source /opt/ros/jade/setup.bash
 Getting rosinstall
 sudo apt-get install python-rosinstall
-
 ![enter description here][10]
-
  $ apt-get source ros-jade-laser-pipeline
- 
  ![enter description here][11]
  
 11. 配置心得：
