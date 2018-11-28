@@ -1,4 +1,4 @@
-# Lab5 ROS配置
+﻿# Lab5 ROS配置
 tags: 14353051 邓玲
 
 
@@ -71,3 +71,7 @@ tags: 14353051 邓玲
   [9]: http://7xrn7f.com1.z0.glb.clouddn.com/16-11-7/3841229.jpg
   [10]: http://7xrn7f.com1.z0.glb.clouddn.com/16-11-7/2435380.jpg
   [11]: http://7xrn7f.com1.z0.glb.clouddn.com/16-11-7/20749732.jpg
+
+
+
+a little change for testing
